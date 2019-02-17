@@ -31,3 +31,21 @@ numerosdigitados = 2 + cont
 media = (numero1 + numero2 + somatoria) / numerosdigitados
 print('A média dos números digitados foi de {:.1f}.'.format(media))
 print('O maior número digitado foi {} e o menor foi {}.'.format(maiorValor, menorValor))
+
+'''resp = 'S'
+soma = quant = média = maior = manor = 0
+while resp in 'Ss':
+    núm = int(input('Digite um número: '))
+    soma += núm
+    quant += 1
+    if quant == 1:
+        maior = menor = núm
+    else:
+        if núm > maior:
+            maior = núm
+        if núm < menor:
+            menor = núm
+    resp = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
+média = soma / quant
+print('A média dos números digitados foi de {:.1f}.'.format(média))
+print('O maior número digitado foi {} e o menor foi {}.'.format(maior, menor))'''
