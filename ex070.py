@@ -26,3 +26,21 @@ while resposta == 'S':
     while resposta != 'S' and resposta != 'N':
         resposta = input('Opção inválida, tente novamente: ').strip().upper()
 print(f'O total gasto nessa compra foi de R${somatoriaPreco:.2f}; {acima1000} produto(s) custa(m) acima de R$1000,00 e nome do produto mais barato é {maisBarato}.')
+
+'''total = totmil = menor = cont = 0
+barato = ' '
+while True:
+    produto = str(input('Nome do produto: '))
+    preco = float(input('Preço; R$'))
+    cont += 1
+    total += preco
+    if preco > 1000:
+        totmil += 1
+    if cont == 1 or preco < menor:
+        menor = preco
+        barato = produto
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? [S/N]')).strip().upper()[0]
+    if resp == 'N':
+        break'''
