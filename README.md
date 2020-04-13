@@ -1,3 +1,3 @@
-# Exercícios do Curso em Vídeo - Python 3
+# _**Exercícios do Curso em Vídeo - Python 3**_
 
 
